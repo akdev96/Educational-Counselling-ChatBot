@@ -6,6 +6,7 @@ class InferenceEngine:
     def __init__(self):
         self.static_responses = {
             "hello": "Hi there! How can I assist you today?",
+            "hi": "Hi there! How can I assist you today?",
             "thank you": "You're welcome!"
         }
         nltk.download('punkt')
