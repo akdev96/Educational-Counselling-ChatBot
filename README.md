@@ -19,10 +19,25 @@ Chatbot for educational counselling - LMU AI Course Work 2
 - [NumPy](https://numpy.org/)
 - [scikit-learn](https://scikit-learn.org/stable/)
 
+### Directory Structure
+
+education_counseling_bot/
+│
+├── main.py
+├── inference_engine.py
+├── ml_model.py
+├── database.py
+├── utils.py
+├── requirements.txt
+└── README.md
+
 
 ## Getting Started
+
 To start the application run following command while in project directory
+
 ```
+pip install -r requirements.txt
 python main.py
 ```
 
