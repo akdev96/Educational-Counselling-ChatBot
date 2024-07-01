@@ -29,7 +29,7 @@ python main.py
 ### Contributors
 
 - **[AKDev96](https://github.com/akdev96)**
-- **[sheleenaJ](https://github.com/sheleenaJ)**
+- **[SheleenaJ](https://github.com/sheleenaJ)**
 
 ## Security Vulnerabilities
 
