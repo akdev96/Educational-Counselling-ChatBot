@@ -37,17 +37,18 @@ class Database:
 
     def get_courses(self):
         c = self.conn.cursor()
-        c.execute("SELECT name, details FROM courses")
+        c.execute("SELECT name, course FROM courses")
         return c.fetchall()
 
     def get_prices(self):
         c = self.conn.cursor()
-        c.execute("SELECT name, price FROM courses")
+        c.execute("SELECT course, price FROM courses")
         return c.fetchall()
 
-    def insert_course(self, name, details):
+    def insert_course(self, name, course):
         c = self.conn.cursor()
         c.execute('''
         INSERT INTO courses (name, details) VALUES (?, ?)
         ''', (name, details))
         self.conn.commit()
+

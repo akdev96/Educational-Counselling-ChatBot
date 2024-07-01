@@ -3,7 +3,7 @@
 <p align="center">
 <img src="https://img.shields.io/badge/environment-dev-blue.svg" >
 <img src="https://img.shields.io/badge/tests-N/A-default.svg" > 
-<img src="https://img.shields.io/badge/license-GNU3-darkblue.svg" >
+<img src="https://img.shields.io/badge/license-GPL3.0-darkblue.svg" >
 <img src="https://img.shields.io/badge/language-python-red.svg" >
 
 </p>
