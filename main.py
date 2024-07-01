@@ -21,7 +21,7 @@ def main():
     engine.set_ml_model(ml_model)
 
     while True:
-        user_input = input("You: ")
+        user_input = input("\nYou: ")
         if user_input.lower() == "exit":
             print("Goodbye!")
             break
