@@ -40,6 +40,11 @@ class Database:
         c.execute("SELECT name, details FROM courses")
         return c.fetchall()
 
+    def get_prices(self):
+        c = self.conn.cursor()
+        c.execute("SELECT name, price FROM courses")
+        return c.fetchall()
+
     def insert_course(self, name, details):
         c = self.conn.cursor()
         c.execute('''

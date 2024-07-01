@@ -40,6 +40,14 @@ class InferenceEngine:
         if "courses" in tokens:
             results = self.db.get_courses()
             return '\n'.join([f"{name}: {details}" for name, details in results]) if results else "No courses available."
+
+            if "prices" in tokens:
+                results = self.db.get_prices()
+                return '\n'.join([f"{name}: {price}" for name, price in results]) if results else "No courses available."
+
+        if "prices" in tokens:
+            results = self.db.get_prices()
+            return '\n'.join([f"{name}: {price}" for name, price in results]) if results else "No courses available."
         return None
 
     def update_knowledge_base(self, course_name, course_details):
